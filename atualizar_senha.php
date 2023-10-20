@@ -5,7 +5,7 @@ include_once 'conexao.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-
+  
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="images/habi2" type="image/x-ico">
@@ -21,7 +21,7 @@ include_once 'conexao.php';
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
+ 
 body {
     background:linear-gradient(45deg, #000000, #150050, #3F0071, #610094);
     /*background:linear-gradient(45deg, #000000, #000000, #2e2d2f, #ffffff);*/
