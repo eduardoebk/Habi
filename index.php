@@ -39,9 +39,7 @@ include_once 'conexao.php';
         </nav>
             
         </div>
-
-
-       
+      
 <!-- Modal LOGIN -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -85,8 +83,7 @@ include_once 'conexao.php';
 Error: Usuario ou senha incorretos! 
 </div>";
         }
-
-        
+      
     }
 
     if(isset($_SESSION['msg'])){
@@ -97,7 +94,7 @@ Error: Usuario ou senha incorretos!
                <div id="inputs">
                   
                  
-                   
+                
                    <!-- EMAIL -->
                    <div class="input-box">
                        <label for="email">
@@ -135,10 +132,6 @@ Error: Usuario ou senha incorretos!
     </div>
   </div>
 </div>
-
-
-
-
 
 
         
@@ -191,7 +184,7 @@ Error: Usuario ou senha incorretos!
             }
         }
         ?>
-            
+             
             <div id="inputs">
                
                 <div class="input-box">
@@ -300,8 +293,6 @@ Error: Usuario ou senha incorretos!
     </div>
 </footer>
     
-   
-
    
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
